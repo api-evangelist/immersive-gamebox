@@ -1,8 +1,26 @@
 aid: immersive-gamebox
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/immersive-gamebox.png
 name: Immersive Gamebox
-description: 'Immersive Gamebox is a company surfaced as a portfolio company of index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: entertainment. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Immersive Gamebox is a London-founded (2018) location-based entertainment company operating
+  indoor gaming venues across the UK, US, Germany, and the UAE. Each Gamebox combines projection mapping,
+  touch screens, motion tracking, and surround sound to deliver fully immersive, interactive games for
+  teams of two to six players in 30-60 minute sessions. Its catalog spans licensed titles built with
+  partners such as Netflix (Squid Game), Aardman (Shaun the Sheep), Rovio (Angry Birds), and Tetris,
+  alongside originals, and the business runs on bookings, party and corporate packages, Game Pass
+  subscriptions, and a multi-unit franchise model. The company was surfaced as a portfolio company of
+  index-ventures. It exposes no public web/REST API today; developer collaboration is limited to a
+  Unity-based SDK offered to game studios building titles for the Gamebox hardware platform.'
 url: https://raw.githubusercontent.com/api-evangelist/immersive-gamebox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Entertainment
+- Gaming
+- Location-Based Entertainment
+- Immersive
+- Venues
+- Franchise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://immersivegamebox.com
+  url: https://www.immersivegamebox.com
+- type: Support
+  url: https://www.immersivegamebox.com/en-US/contact-us
+- type: PrivacyPolicy
+  url: https://www.immersivegamebox.com/en-US/privacy-policy
+- type: TermsOfService
+  url: https://www.immersivegamebox.com/en-US/terms-and-conditions
+- type: Careers
+  url: https://www.immersivegamebox.com/en-US/careers
+- type: Franchise
+  url: https://www.immersivegamebox.com/en-US/franchise-opportunities
+- type: DeveloperProgram
+  url: https://www.immersivegamebox.com/en-US/game-developers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/immersivegamebox
+- type: DomainSecurity
+  url: security/immersive-gamebox-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
